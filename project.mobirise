@@ -1,0 +1,153 @@
+{
+  "settings": {
+    "name": "research.hacks",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "additionalSetColors": [
+        "#efefef"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.10.6",
+    "siteFonts": [],
+    "favicon": "",
+    "noImageResize": "",
+    "uniqCompNum": 4,
+    "versionPublish": "4.10.6"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.5
+          },
+          "title": "<b>Research Hacks</b>",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-0",
+          "_styles": {
+            "H1": {
+              "color": "#ffffff"
+            },
+            ".btn": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "22px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/morganpj-400x500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/morganpj-400x500-400x500.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/romeror-400x500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/romeror-400x500-400x500.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/schultjm-400x500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/schultjm-400x500-400x500.jpg",
+                "alt": "",
+                "title": "",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-2"
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showCaptions": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "columns": 4,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/helloquence-5fnmwej4taa-unsplash-2000x1335.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Citations",
+          "caption1": "September 12<br>9.00 - 10.00am<br>Central 418A",
+          "title2": "Data",
+          "caption2": "September 19<br>11.00am - 12.00pm<br>Central 800BB",
+          "title3": "Census",
+          "caption3": "October 4<br>2.30 - 3.30pm<br>Central 612A",
+          "title4": "Primary Sources",
+          "caption4": "October 11<br>1.00 - 2.00pm<br>Central 800BB",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-3",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
